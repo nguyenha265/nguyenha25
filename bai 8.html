@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input style="margin-left: 600px" type="button" onclick="star()"value="Chơi"/>
+<script>
+function star() {
+let a = prompt("chọn ngẫu nhiên");
+    ramdom = Math.floor(Math.random()* a );
+let b = prompt("đoán số");
+    while(b!=a){
+        b=prompt("mời đoán lại");
+        if(b==a){
+            alert("chúc mừng bạn chiến thắng")
+        }
+    }
+}
+</script>
+</body>
+</html>
